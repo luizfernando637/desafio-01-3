@@ -5,37 +5,50 @@
     padding: 0px;
 }
 
-body {
+html, body {
+    min-height: 100vh;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
    background-color: black;
-   margin: auto;
-   padding: 0px;
-   padding-top: 40px;
-   min-height: 150px;
+   color: white;
+   text-align: center;
 }
 
 header > h1 {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 3em;
-    font-weight: bold;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header > p {
-    color: white;
-    text-align: center;
-    padding: 0px;
-    margin: auto;
+ padding-bottom: 50px;
 }
 
-a {
+header a, footer a {
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: darkorchid;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
