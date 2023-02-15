@@ -82,7 +82,7 @@ section.imagem {
     background-color: darkorchid;
     color: white;
     box-shadow: inset 6px 6px 13px black;
-    background-attachment: fixed; <--efetito paralax-->
+    background-attachment: fixed; /* efetito paralax */
     
 }
 
